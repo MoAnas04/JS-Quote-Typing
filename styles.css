@@ -1,0 +1,26 @@
+#quote-container {
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#typing-area {
+  width: 50%;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#message {
+  color: red;
+  margin-top: 10px;
+}
+
+#score-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 50px;
+}
